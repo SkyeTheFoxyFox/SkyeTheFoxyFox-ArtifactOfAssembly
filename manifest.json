@@ -1,0 +1,10 @@
+{
+	"name": "ArtifactOfAssembly",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/SkyeTheFoxyFox/SkyeTheFoxyFox-ArtifactOfAssembly",
+	"description": "Makes most items become drones.",
+	"dependencies": [
+		"ReturnOfModding-ReturnOfModding-1.0.33"
+	]
+}
+ 
