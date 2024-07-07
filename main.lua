@@ -18,6 +18,9 @@ gm.pre_script_hook(gm.constants.__input_system_tick, function()
 		if(not sprite) then
 			sprite = addsprite()
 		end
+		if(sprite == -1) then
+			sprite = 1221
+		end
 		gm.array_set(class_arti, 2, "Assembly")
 		gm.array_set(class_arti, 3, "Artifact of Assembly")
 		gm.array_set(class_arti, 4, "Makes most items become drones.")
