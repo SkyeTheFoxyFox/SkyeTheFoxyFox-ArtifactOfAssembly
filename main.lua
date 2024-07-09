@@ -9,7 +9,7 @@ local function add_chat_message(text)
 end
 
 function addsprite()
-	local path = _ENV._PLUGIN.plugins_mod_folder_path .. "/graphics/ArtifactAssembly.png"
+	local path = _ENV._PLUGIN.plugins_mod_folder_path .. "/ArtifactAssembly.png"
 	return gm.sprite_add(path, 3, false, false, 16, 16)
 end
 
@@ -59,7 +59,7 @@ local function get_drone_by_rarity(rarity)
 		return(gm.constants[green[math.random(#green)]])
 	elseif(rarity == 2) then
 		return(gm.constants[red[math.random(#red)]])
-	elseif(rarity == 3) then
+	elseif(rarity == 4) then
 		return(gm.constants[yellow[math.random(#yellow)]])
 	end
 	return(nil)
